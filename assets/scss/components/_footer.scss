@@ -1,0 +1,89 @@
+/*=============== FOOTER ===============*/
+.footer{
+    position: relative;
+    overflow: hidden;
+
+    &__img-one,
+    &__img-two{
+        position: absolute;
+        transition: .3s;
+    }
+
+    &__img-one{
+        width: 100px;
+        top: 6rem;
+        right: -2rem;
+
+        &:hover{
+            transform: translateY(-.5rem);
+        }
+    }
+    &__img-two{
+        width: 150px;
+        bottom: 4rem;
+        right: 4rem;
+
+        &:hover{
+            transform: translateY(-.5rem);
+        }
+    }
+
+    &__container{
+        row-gap: 2rem;
+    }
+    &__logo{
+        display: flex;
+        align-items: center;
+        column-gap: .5rem;
+        margin-bottom: var(--mb-1);
+        font-weight: var(--font-medium);
+        color: var(--title-color);
+
+        &-img{
+            width: 20px;
+        }
+    }
+    &__description{
+        margin-bottom: var(--mb-2-5);
+    }
+    &__social{
+        display: flex;
+        column-gap: .75rem;   
+
+        &-link{
+            display: inline-flex;
+            background: var(--container-color);
+            padding: .25rem;
+            border-radius: .25rem;
+            color: var(--title-color);
+            font-size: 1rem;
+
+            &:hover{
+                background: var(--body-color);
+            }
+        }
+    }
+    &__title{
+        font-size: var(--h3-font-size);
+        margin-bottom: var(--mb-1);
+    }
+    &__links{
+        display: grid;
+        row-gap: .35rem;
+    }
+    &__link{
+        font-size: var(--small-font-size);
+        color: var(--text-color);
+        transition: .3s;
+
+        &:hover{
+            color: var(--title-color);
+        }
+    }
+    &__copy{
+        display: block;
+        text-align: center;
+        font-size: var(--smaller-font-size);
+        margin-top: 4.5rem;
+    }
+}

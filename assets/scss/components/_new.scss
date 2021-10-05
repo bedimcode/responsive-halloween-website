@@ -1,0 +1,73 @@
+/*=============== NEW ARRIVALS ===============*/
+.new{
+    &__container{
+        padding-top: 1rem;
+    }
+    &__img{
+        width: 120px;
+        margin-bottom: var(--mb-0-5);
+        transition: .3s;
+    }
+    &__content{
+        position: relative;
+        background: var(--container-color);
+        width: 242px;
+        padding: 2rem 0 1.5rem 0;
+        border-radius: .75rem;
+        text-align: center;
+        overflow: hidden;
+
+        &:hover .new__img{
+            transform: translateY(-.5rem);
+        }
+
+        &:hover .new__button{
+            right: 0;
+        }
+    }
+    &__tag{
+        position: absolute;
+        top: 8%;
+        left: 8%;
+        background-color: var(--first-color);
+        color: var(--title-color);
+        font-size: var(--small-font-size);
+        padding: .25rem .5rem;
+        border-radius: .25rem;
+    }
+    &__title{
+        font-size: var(--normal-font-size);
+        font-weight: var(--font-medium);
+    }
+    &__subtitle{
+        display: block;
+        font-size: var(--small-font-size);
+        margin-bottom: var(--mb-0-75);
+    }
+    &__prices{
+        display: inline-flex;
+        align-items: center;
+        column-gap: .5rem;
+    }
+    &__price{
+        font-weight: var(--font-medium);
+        color: var(--title-color);
+    }
+    &__discount{
+        color: var(--first-color);
+        font-size: var(--smaller-font-size);
+        text-decoration: line-through;
+        font-weight: var(--font-medium);
+    }
+    &__button{
+        display: inline-flex;
+        padding: .5rem;
+        border-radius: .25rem .25rem .75rem .25rem;
+        position: absolute;
+        bottom: 0;
+        right: -3rem;
+    }
+    &__icon{
+        font-size: 1.25rem;
+    }
+}

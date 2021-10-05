@@ -1,0 +1,86 @@
+/*=============== HOME ===============*/
+.home{
+    &__content{
+        row-gap: 1rem;
+    }
+    &__group{
+        display: grid;
+        position: relative;
+        padding-top: 2rem;
+    }
+    &__img{
+        height: 250px;
+        justify-self: center;
+    }
+    &__indicator{
+        width: 8px;
+        height: 8px;
+        background-color: var(--title-color);
+        border-radius: 50%;
+        position: absolute;
+        top: 7rem;
+        right: 2rem;
+
+        &::after{
+            content: '';
+            position: absolute;
+            width: 1px;
+            height: 48px;
+            background-color: var(--title-color);
+            top: -3rem;
+            right: 45%;
+        }
+    }
+    &__details{
+        &-img{
+            position: absolute;
+            right: .5rem;
+        }
+        &-title,
+        &-subtitle{
+            display: block;
+            font-size: var(--small-font-size);
+            text-align: right;
+        }
+    }
+    &__subtitle{
+        font-size: var(--h3-font-size);
+        text-transform: uppercase;
+        margin-bottom: var(--mb-1);
+    }
+    &__title{
+        font-size: var(--biggest-font-size);
+        font-weight: var(--font-black);
+        line-height: 109%;
+        margin-bottom: var(--mb-1);
+    }
+    &__description{
+        margin-bottom: var(--mb-1);
+    }
+    &__buttons{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+/* Swiper Class */
+.swiper-pagination{
+    position: initial;
+    margin-top: 1rem;
+}
+.swiper-pagination-bullet{
+    width: 5px;
+    height: 5px;
+    background-color: var(--title-color);
+    opacity: 1;
+}
+
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+    margin: 0 .5rem;
+}
+
+.swiper-pagination-bullet-active{
+    width: 1.5rem;
+    height: 5px;
+    border-radius: .5rem;
+}

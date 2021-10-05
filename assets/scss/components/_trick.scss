@@ -1,0 +1,54 @@
+/*=============== TRICK OR TREAT ===============*/
+.trick{
+    &__container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+        padding-top: 1rem;
+    }
+    &__content{
+        position: relative;
+        background: var(--container-color);
+        border-radius: 1rem;
+        padding: 1.5rem 0 1rem 0;
+        text-align: center;
+        overflow: hidden;
+
+        &:hover .trick__img{
+            transform: translateY(-.5rem);
+        }
+
+        &:hover .trick__button{
+            right: 0;
+        }
+    }
+    &__img{
+        width: 90px;
+        transition: .3s;
+    }
+    &__subtitle,
+    &__price{
+        display: block;
+    }
+    &__subtitle{
+        font-size: var(--smaller-font-size);
+        margin-bottom: var(--mb-0-5);
+    }
+    &__title,
+    &__price{
+        color: var(--title-color);
+        font-weight: var(--font-medium);
+        font-size: var(--normal-font-size);
+    }
+    &__button{
+        display: inline-flex;
+        padding: .5rem;
+        border-radius: .25rem .25rem .75rem .25rem;
+        position: absolute;
+        right: -3rem;
+        bottom: 0;
+    }
+    &__icon{
+        font-size: 1.25rem;
+        color: var(--title-color);
+    }
+}

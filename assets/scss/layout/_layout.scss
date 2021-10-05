@@ -1,0 +1,25 @@
+/*=============== REUSABLE CSS CLASSES ===============*/
+.section{
+    padding: 4.5rem 0 2rem;
+
+    &__title{
+        font-size: var(--h2-font-size);
+        margin-bottom: var(--mb-2);
+        text-align: center;
+    }
+}
+
+/*=============== LAYOUT ===============*/
+.container{
+    max-width: 968px;
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+}
+
+.grid{
+    display: grid;
+}
+
+.main{
+    overflow: hidden; // For animation
+}

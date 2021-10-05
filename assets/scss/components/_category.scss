@@ -1,0 +1,22 @@
+/*=============== CATEGORY ===============*/
+.category{
+    &__container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem 2rem;
+    }
+    &__data{
+        text-align: center;
+
+        &:hover .category__img{
+            transform: translateY(-.5rem);
+        }
+    }
+    &__img{
+        width: 120px;
+        margin-bottom: var(--mb-0-75);
+        transition: .3s;
+    }
+    &__title{
+        margin-bottom: var(--mb-0-25);
+    }
+}
