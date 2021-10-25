@@ -1,0 +1,156 @@
+========== HOME ==========
+.home__details-title
+The Labu “Reiza”
+
+Adino & Grahami
+
+Captain Sem
+
+.home__details-subtitle
+The Living Pumpkin
+
+No words can describe them
+
+Veteran Spooky Ghost
+
+.home__subtitle
+#1 Top Scariest Ghost
+
+#2 top Best duo
+
+#3 Top Scariest  Ghost
+
+.home__title
+UOOOO <br> TRICK OR <br> TREAT!!
+
+BRING BACK <br> MY COTTON <br> CANDY
+
+RESPAWN <br> THE SPOOKY <br> SKULL
+
+.home__description
+Hi, I'm Reiza, people call me "El Labu". I am currently trying to learn 
+something new, building my own bike with parts made only in Malaysia.
+
+Adino steals cotton candy from his brother and eats them all in one bite, 
+a hungry beast. Grahami can no longer contain his anger towards Adino.
+
+In search for cute little puppy, Captain Sem has come back from his tragic death. 
+With his hogwarts certified power he promise to be a hero for all of ghostkind.
+
+
+========== CATEGORY ==========
+.section__title
+Favorite Scare <br> Category
+
+.category__title
+Ghosts
+
+Pumpkins
+
+Witch Hat
+
+.category__description
+Choose the ghosts, the scariest there are.
+
+You look at the scariest pumpkins there is.
+
+Pick the most stylish witch hats out there.
+
+
+========== ABOUT ==========	
+.section__title
+About Halloween <br> Night
+
+.about__description
+Night of all the saints, or all the dead, is celebrated on October 31 and it is a 
+very fun international celebration, this celebration comes from ancient origins, and is already 
+celebrated by everyone.
+
+========== TRICK OR TREAT ==========
+.section__title
+Trick Or Treat
+
+.trick__title
+Toffee
+
+Bone
+
+Scarecrow
+
+Candy Cane
+
+Pumpkin
+
+Ghost
+
+.trick__subtitle
+Candy
+
+Accessory
+
+========== DISCOUNT ==========
+.section__title
+50% Discount <br> On New Products
+
+
+========== NEW ARRIVALS ==========
+.section__title
+New Arrivals
+
+.new__title
+Haunted House
+
+Halloween Candle
+
+Witch Hat
+
+Rip
+
+Terrifying Crystal Ball
+
+Witch Broom
+
+========== OUR NEWSLETTER ==========
+.section__title
+Our Newsletter
+
+.newsletter__description
+Promotion new products and sales. Directly to your inbox
+
+========== FOOTER  ==========
+.footer__logo-name
+Halloween
+
+.footer__description
+Enjoy the scariest night <br> of your life.
+
+.footer__social-link
+https://www.facebook.com/
+
+https://www.instagram.com/
+
+https://twitter.com/
+
+.footer__title
+About
+
+Our Services
+
+Our Company
+
+.footer__links
+About Us
+Features
+News
+
+Pricing
+Discounts
+Shipping mode
+
+Blog
+About us
+Our mision
+
+.footer__copy
+&#169; Bedimcode. All rigths reserved
+
