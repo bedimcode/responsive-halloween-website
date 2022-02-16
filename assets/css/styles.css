@@ -68,13 +68,10 @@ button {
     --title-color: hsl(var(--hue), 4%, 100%);
     --text-color: hsl(var(--hue), 4%, 85%);
     --text-color-light: hsl(var(--hue), 4%, 55%);
+    --toggle-color: #480cd3;
 
     /*Orange-Violet gradient*/
-    --body-color: linear-gradient(
-        90deg,
-        hsl(259, 57%, 16%) 0%,
-        hsl(14, 79%, 58%) 100%
-    );
+    --body-color: linear-gradient(90deg, #201240 0%, hsl(14, 79%, 58%) 110%);
     --container-color: linear-gradient(
         136deg,
         hsl(259, 57%, 16%) 0%,
@@ -171,6 +168,14 @@ button {
 } */
 
 body.active {
+    --hue: 14;
+    --first-color: #59ca0d;
+    --first-color-alt: #68ff0d;
+    --title-color: #59ca0d;
+    --text-span-color: #fff;
+    --text-color-light: #fff;
+    --text-color: hsl(var(--hue), 4%, 85%);
+    --text-color-light: hsl(var(--hue), 4%, 55%);
     --bg-color: #171717;
     --body-color: #171717;
     --card-color: #2f2c2c;
@@ -180,8 +185,7 @@ body.active {
     --button-dark-color: #58329e;
     --toggle-color: #68ff04;
     --text-color: #fff;
-    --text-span-color: #9257ff;
-    --text-color-light: #c3b6ee;
+
     --body-color: hsl(30, 8%, 8%);
     --container-color: hsl(30, 8%, 10%);
 }
@@ -190,7 +194,7 @@ body.active {
 .button {
     display: inline-block;
     background-color: var(--first-color);
-    color: var(--title-color);
+    color: var(--text-color);
     padding: 1rem 1.75rem;
     border-radius: 0.5rem;
     font-weight: var(--font-medium);
@@ -217,7 +221,7 @@ body.active {
 }
 
 .button--link {
-    color: var(--title-color);
+    color: var(--text-color);
 }
 
 .button--flex {
@@ -226,7 +230,7 @@ body.active {
     column-gap: 0.5rem;
 }
 
-/*=============== REUSABLE CSS CLASSES ===============*/
+/* =============== REUSABLE CSS CLASSES =============== */
 .section {
     padding: 4.5rem 0 2rem;
 }
@@ -237,7 +241,7 @@ body.active {
     text-align: center;
 }
 
-/*=============== LAYOUT ===============*/
+/* =============== LAYOUT =============== */
 .container {
     max-width: 968px;
     margin-left: var(--mb-1-5);
@@ -252,7 +256,7 @@ body.active {
     overflow: hidden; /*For animation*/
 }
 
-/*=============== HEADER ===============*/
+/* =============== Header =============== */
 .l-header {
     width: 100%;
     background: var(--body-color);
@@ -263,7 +267,7 @@ body.active {
     z-index: var(--z-fixed);
 }
 
-/*=============== NAV ===============*/
+/* =============== Navigation =============== */
 .l-nav {
     height: var(--header-height);
     display: flex;
@@ -297,7 +301,7 @@ body.active {
     cursor: pointer;
     position: absolute;
     transition: var(--transition-general);
-    color: var(--toggle-color);
+    color: var(--title-color);
 }
 
 .nav__toggle:hover,
@@ -329,6 +333,7 @@ body.active {
     transform: rotate(180deg);
 }
 
+/* ========= Menu ======== */
 @media screen and (max-width: 767px) {
     .nav__menu {
         position: fixed;
@@ -377,18 +382,18 @@ body.active {
     color: var(--text-color);
 }
 
-/* Show menu */
+/* ===== Show menu ===== */
 .show-menu {
     top: 0;
 }
 
-/* Change background header */
+/* ===== Change background header ===== */
 .scroll-header {
     background: var(--container-color);
-    box-shadow: 10px 10px 100px #68ff04;
+    box-shadow: 10px 10px 100px var(--toggle-color);
 }
 
-/* Active link */
+/* ===== Active link ===== */
 .active-link {
     position: relative;
     width: 0;
@@ -419,7 +424,7 @@ body.active {
     top: 99%;
     left: 0;
     height: 0.3rem;
-    background: #68ff04;
+    background: var(--toggle-color);
     /* z-index: 222; */
 }
 
@@ -694,7 +699,7 @@ body.active {
     top: 8%;
     left: 8%;
     background-color: var(--first-color);
-    color: var(--title-color);
+    color: var(--text-color);
     font-size: var(--small-font-size);
     padding: 0.25rem 0.5rem;
     border-radius: 0.25rem;
@@ -942,6 +947,7 @@ body.active {
     z-index: var(--z-tooltip);
     opacity: 0.8;
     transition: 0.4s;
+    box-shadow: 5px 5px 100px #68ff04;
 }
 
 .scrollup__icon {
