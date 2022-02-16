@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,18 +17,23 @@
             href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
         />
 
-        <!--=============== SWIPER CSS JS ===============-->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+        <!-- =============== SWIPER CSS JS ===============
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" /> -->
 
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="assets/css/styles.css" />
+        <!-- SWIPER -->
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+        />
 
         <title>Responsive Halloween Website</title>
     </head>
     <body>
         <!--==================== HEADER ====================-->
-        <header class="header" id="header">
-            <nav class="nav container">
+        <header class="l-header" id="header">
+            <nav class="l-nav container">
                 <a href="#" class="nav__logo">
                     <img
                         src="assets/img/logo.png"
@@ -68,15 +73,17 @@
                     <img src="assets/img/nav-img.png" alt="" class="nav__img" />
                 </div>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="bx bx-grid-alt"></i>
+                <div class="l-header__nav__icons">
+                    <i class="nav__toggle bx bx-grid-alt" id="nav-toggle"></i>
+                    <i id="theme-btn" class="far fa-moon"></i>
                 </div>
             </nav>
+            <div class="scroll-indicator"></div>
         </header>
 
         <main class="main">
             <!--==================== HOME ====================-->
-            <section class="home container" id="home">
+            <section class="l-home container" id="home">
                 <div class="swiper home-swiper">
                     <div class="swiper-wrapper">
                         <!-- HOME SLIDER 1 -->
@@ -123,10 +130,7 @@
                                             class="button--link button--flex"
                                             >Track Record
                                             <i
-                                                class="
-                                                    bx bx-right-arrow-alt
-                                                    button__icon
-                                                "
+                                                class="bx bx-right-arrow-alt button__icon"
                                             ></i
                                         ></a>
                                     </div>
@@ -178,10 +182,7 @@
                                             class="button--link button--flex"
                                             >Track Record
                                             <i
-                                                class="
-                                                    bx bx-right-arrow-alt
-                                                    button__icon
-                                                "
+                                                class="bx bx-right-arrow-alt button__icon"
                                             ></i
                                         ></a>
                                     </div>
@@ -234,10 +235,7 @@
                                             class="button--link button--flex"
                                             >Track Record
                                             <i
-                                                class="
-                                                    bx bx-right-arrow-alt
-                                                    button__icon
-                                                "
+                                                class="bx bx-right-arrow-alt button__icon"
                                             ></i
                                         ></a>
                                     </div>
@@ -245,7 +243,11 @@
                             </div>
                         </section>
                     </div>
+                    <!-- If we need pagination -->
                     <div class="swiper-pagination"></div>
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
             </section>
 
@@ -560,6 +562,11 @@
                                 </button>
                             </div>
                         </div>
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
                     </div>
                 </div>
             </section>
@@ -697,11 +704,17 @@
             <i class="bx bx-up-arrow-alt scrollup__icon"></i>
         </a>
 
-        <!--=============== SCROLL REVEAL ===============-->
+        <!-- =============== SCROLL REVEAL ===============
         <script src="assets/js/scrollreveal.min.js"></script>
 
-        <!--=============== SWIPER JS ===============-->
-        <script src="assets/js/swiper-bundle.min.js"></script>
+        =============== SWIPER JS ===============
+        <script src="assets/js/swiper-bundle.min.js"></script> -->
+
+        <!-- scrollreveal -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!-- SWIPPER -->
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
         <!--=============== MAIN JS ===============-->
         <script src="assets/js/main.js"></script>
