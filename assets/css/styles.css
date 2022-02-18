@@ -612,6 +612,9 @@ body.active {
 /*=============== ABOUT ===============*/
 .about__container {
     row-gap: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .about__data {
@@ -963,7 +966,7 @@ footer .c-logo {
     margin-top: 4.5rem;
 }
 
-/*=============== SCROLL UP ===============*/
+/* =============== Scroll up =============== */
 .scrollup {
     position: fixed;
     background: var(--container-color);
@@ -1028,6 +1031,12 @@ footer .c-logo {
     }
 }
 
+@media screen and (max-width: 576px) {
+    .about__container {
+        flex-direction: column;
+    }
+}
+
 /* For medium devices */
 @media screen and (min-width: 576px) {
     .about__container {
@@ -1052,6 +1061,8 @@ footer .c-logo {
 
     .section {
         padding: 7rem 0 2rem;
+        margin-left: var(--mb-1);
+        margin-right: var(--mb-1);
     }
 
     .nav {
