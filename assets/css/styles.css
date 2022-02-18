@@ -191,7 +191,7 @@ body.active {
 }
 
 /* =============== Components =============== */
-.button {
+.c-button {
     display: inline-block;
     background-color: var(--first-color);
     color: var(--text-color);
@@ -201,33 +201,58 @@ body.active {
     transition: 0.3s;
 }
 
-.button:hover {
+.c-button:hover {
     filter: brightness(1.5);
 }
 
-.button__icon {
+.c-button__icon {
     font-size: 1.25rem;
 }
 
-.button--ghost {
+.c-button--ghost {
     border: 2px solid;
     background-color: transparent;
     border-radius: 3rem;
     padding: 0.75rem 1.5rem;
 }
 
-.button--ghost:hover {
+.c-button--ghost:hover {
     background: none;
 }
 
-.button--link {
+.c-button--link {
     color: var(--text-color);
 }
 
-.button--flex {
+.c-button--flex {
     display: inline-flex;
     align-items: center;
     column-gap: 0.5rem;
+}
+
+.c-social-media {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+
+.c-social-media a i {
+    font-size: 1rem;
+    transition: var(--transition-general);
+}
+
+.c-social-media a i:hover {
+    filter: brightness(0.1);
+    transform: translateY(-10px);
+}
+
+.c-logo {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    font-weight: var(--font-medium);
+    color: var(--title-color);
 }
 
 /* =============== REUSABLE CSS CLASSES =============== */
@@ -651,7 +676,7 @@ body.active {
 
 .trick__icon {
     font-size: 1.25rem;
-    color: var(--title-color);
+    color: var(--bg-color);
 }
 
 .trick__content:hover .trick__img {
@@ -792,7 +817,7 @@ body.active {
 }
 
 /*=============== FOOTER ===============*/
-.footer {
+.l-footer {
     position: relative;
     overflow: hidden;
 }
@@ -880,30 +905,22 @@ body.active {
     }
 }
 
-.footer__container {
+.l-footer__container {
     row-gap: 2rem;
-}
-
-.footer__logo {
-    display: flex;
-    align-items: center;
-    column-gap: 0.5rem;
-    margin-bottom: var(--mb-1);
-    font-weight: var(--font-medium);
-    color: var(--title-color);
+    z-index: 999;
 }
 
 .footer__logo-img {
     width: 20px;
 }
 
-.footer__description {
+.l-footer__description {
     margin-bottom: var(--mb-2-5);
+    /* margin-top: 1rem; */
 }
 
-.footer__social {
-    display: flex;
-    column-gap: 0.75rem;
+footer .c-logo {
+    margin-bottom: var(--mb-0-25);
 }
 
 .footer__social-link {
@@ -919,12 +936,12 @@ body.active {
     background: var(--body-color);
 }
 
-.footer__title {
+.l-footer__title {
     font-size: var(--h3-font-size);
     margin-bottom: var(--mb-1);
 }
 
-.footer__links {
+.l-footer__links {
     display: grid;
     row-gap: 0.35rem;
 }
@@ -939,7 +956,7 @@ body.active {
     color: var(--title-color);
 }
 
-.footer__copy {
+.l-footer__copy {
     display: block;
     text-align: center;
     font-size: var(--smaller-font-size);
@@ -1115,7 +1132,7 @@ body.active {
         grid-template-columns: 0.5fr;
     }
 
-    .footer__container {
+    .l-footer__container {
         grid-template-columns: repeat(4, 1fr);
         justify-items: center;
         column-gap: 1rem;
@@ -1227,7 +1244,7 @@ body.active {
         font-size: var(--h3-font-size);
     }
 
-    .footer__copy {
+    .l-footer__copy {
         margin-top: 6rem;
     }
 }
