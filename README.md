@@ -1,14 +1,14 @@
-# Responsive-halloween-website
+# Halloween
 
 ## 💻 Projeto
 
-Responsive-halloween-website foi uma aplicação prática vista por mim em um canal do YouTube que acompanho [Bedimcode](https://www.youtube.com/c/Bedimcode), fiz uma Fork do projeto, a fim de codar junto e personalizar com meu jeitinho. Visite o GitHub do [Bedimcode](https://github.com/bedimcode/responsive-halloween-website). O mesmo é responsivo para as diferentes resoluções.
+Halloween foi uma aplicação prática vista por mim em um canal do YouTube que acompanho [Bedimcode](https://www.youtube.com/c/Bedimcode), fiz uma Fork do projeto, a fim de codar junto e personalizar com meu jeitinho. Visite o GitHub do [Bedimcode](https://github.com/bedimcode/responsive-halloween-website). O mesmo é responsivo para as diferentes resoluções.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## 📢 Visite o site
 
-[Responsive-halloween-website](https://lobinhodev.github.io/Responsive-halloween-website/).
+[Responsive-halloween-website](https://lobinhodev.github.io/Responsive-website-halloween/).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
