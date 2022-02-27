@@ -33,6 +33,12 @@ Responsive-halloween-website foi uma aplicação prática vista por mim em um ca
   <img width="600" src=".github/Desktop.gif">
 </p>
 
+### Mobile
+
+<p align="center">
+  <img width="600" src=".github/Mobile.gif">
+</p>
+
 ## 🧠 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
