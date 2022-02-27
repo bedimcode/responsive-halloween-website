@@ -68,15 +68,11 @@ button {
     --title-color: hsl(var(--hue), 4%, 100%);
     --text-color: hsl(var(--hue), 4%, 85%);
     --text-color-light: hsl(var(--hue), 4%, 55%);
-    --toggle-color: #480cd3;
+    --toggle-color: #f5af19;
 
     /*Orange-Violet gradient*/
-    --body-color: linear-gradient(90deg, #201240 0%, hsl(14, 79%, 58%) 110%);
-    --container-color: linear-gradient(
-        136deg,
-        hsl(259, 57%, 16%) 0%,
-        hsl(14, 79%, 58%) 100%
-    );
+    --body-color: linear-gradient(90deg, #f12711 0%, #f5af19 110%);
+    --container-color: linear-gradient(136deg, #f12711 0%, #f5af19 100%);
 
     /*Red gradient*/
     /* --body-color: linear-gradient(90deg, hsl(360, 28%, 40%) 0%, hsl(18, 28%, 40%) 100%);

@@ -46,6 +46,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Bibliotecas
 
 -   [Google Fonts](https://fonts.google.com/)
+-   [Swiperjs](https://swiperjs.com)
+-   [UiGradient](https://uigradients.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
