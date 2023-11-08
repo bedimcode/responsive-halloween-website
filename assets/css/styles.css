@@ -57,13 +57,13 @@
 /* Responsive typography */
 @media screen and (min-width: 992px) {
   :root {
-    --biggest-font-size: 4rem;
-    --h1-font-size: 2.25rem;
-    --h2-font-size: 1.5rem;
-    --h3-font-size: 1.25rem;
-    --normal-font-size: 1rem;
-    --small-font-size: .875rem;
-    --smaller-font-size: .813rem;
+    --biggest-font-size: 3rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.2rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: 0.8rem;
+    --small-font-size: .6rem;
+    --smaller-font-size: .6rem;
   }
 }
 
