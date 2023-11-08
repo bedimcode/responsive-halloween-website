@@ -36,7 +36,7 @@
   --smaller-font-size: .75rem;
 
   /*========== Font weight ==========*/
-  --font-medium: 500;
+  --font-medium: 600;
   --font-semi-bold: 600;
   --font-black: 900;
 
@@ -57,13 +57,13 @@
 /* Responsive typography */
 @media screen and (min-width: 992px) {
   :root {
-    --biggest-font-size: 4rem;
-    --h1-font-size: 2.25rem;
-    --h2-font-size: 1.5rem;
+    --biggest-font-size: 5rem;
+    --h1-font-size: 2.5rem;
+    --h2-font-size: 2rem;
     --h3-font-size: 1.25rem;
-    --normal-font-size: 1rem;
-    --small-font-size: .875rem;
-    --smaller-font-size: .813rem;
+    --normal-font-size: 1.4rem;
+    --small-font-size: 1rem;
+    --smaller-font-size: 1rem;
   }
 }
 

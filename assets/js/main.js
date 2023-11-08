@@ -97,3 +97,26 @@ sr.reveal(`.home-swiper, .new-swiper, .newsletter__container`)
 sr.reveal(`.category__data, .trick__content, .footer__content`,{interval: 100})
 sr.reveal(`.about__data, .discount__img`,{origin: 'left'})
 sr.reveal(`.about__img, .discount__data`,{origin: 'right'})
+
+
+/*=============== Yandex metrika ===============*/
+
+var mouseMoveCount = 0;
+var clickCount = 0;
+
+document.addEventListener("mousemove", function() {
+    mouseMoveCount++;
+});
+
+document.addEventListener("click", function() {
+    clickCount++;
+});
+
+window.addEventListener("beforeunload", function() {
+    if (ym) {
+        ym(95089037,'reachGoal','mouse_moves_and_clicks-tomilin-v2', {
+            mouse_moves: mouseMoveCount,
+            clicks: clickCount
+        })
+    }
+});
